@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 7d0887ea6e8d5e246b93b83aa7b68290
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - foodScript: {fileID: -3050107795012779879, guid: 8bad8d65f41de0d4aac11c11e2165992, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
