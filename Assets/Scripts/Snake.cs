@@ -48,6 +48,22 @@ namespace Game
                 tempNode = tempNode.NextNode;
             }
         }
+
+        public bool CheckEmpty(Vector3 location)
+        {
+            LList<GameObject>.ListNode check = snake.head;
+
+            while (check != null)
+            {
+                if (location == check.member.transform.position)
+                {
+                    return false;
+                }
+
+                check = check.NextNode;
+            }
+            return true;
+        }
     }
 }
 
